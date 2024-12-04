@@ -1,0 +1,7 @@
+create table student(
+                      id int primary key auto_increment,
+                      name varchar(20) not null,
+                      course varchar(20) not null,
+                      total int not null
+					);
+insert into student (name,course,total) values ('hari','django',450);
